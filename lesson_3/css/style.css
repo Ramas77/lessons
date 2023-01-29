@@ -1,0 +1,53 @@
+@import url("reset.css");
+/* *{
+	color: blue;
+} */
+div{
+	color: red;
+}
+.text-4z{
+	color: aqua;
+}
+div.text-3{
+	color: chartreuse;
+}
+a{
+	color: green;
+}
+ul{
+	color: black;
+}
+.text4{
+	color: fuchsia;
+}
+.text4 a{
+	color: red;
+}
+
+.text-8 a{
+	color: gray;
+}
+header a{
+	color: rebeccapurple;
+}
+.text2 ul.text1{
+	color: rgb(104, 226, 43);
+}
+ul.text1 li.text1{
+	color: blue;
+}
+h2.text{
+	color: coral;
+}
+.text12>p{
+	color: green;
+}
+p.text13{
+	color:red;
+}
+h2.text13{
+	color: greenyellow;
+}
+ul.text-3{
+	color: blue;
+}
