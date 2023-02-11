@@ -1,0 +1,72 @@
+@import url("reset.css");
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #6C757D;
+}
+.article-main{
+	max-width: 1470px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+[class*="__container"]{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.__title {
+	max-width: 816px;
+	margin: 0 auto;
+}
+
+.article__text-block{
+	max-width: 816px;
+	margin: 0 auto;
+	line-height: 1.6;
+}
+.article__text-block p{
+	margin-bottom: 30px;
+}
+.article__title {
+	font-weight: 700;
+	font-size: 25px;
+	color: #212529;
+	max-width: 605px;
+	margin-bottom: 40px;
+}
+
+.article__images-one{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 0px;
+	max-width: 100%;
+}
+.image-1:hover{
+	border-radius: 50%;
+	border: 10px solid blue;
+}
+
+.image-2{
+	margin-right: 30px;
+	opacity: 0.5;
+}
+
+.article__images-two{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-size: 0px;
+	max-width: 100%;
+}
+.image-4:hover{
+	outline: 10px dashed rgb(14, 7, 6);
+}
+.image-5{
+	margin-right: 30px;
+}
+.image-6:hover{
+	box-shadow: 20px 20px 20px 0px rebeccapurple;
+}
+.article__text-block>.article__title:hover{
+	box-shadow: 20px 20px 20px 15px rebeccapurple;
+}
