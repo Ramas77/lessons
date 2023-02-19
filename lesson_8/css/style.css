@@ -1,0 +1,317 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+body{
+	font-family: "Poppins";
+	font-size: 14px;
+	font-weight: 300;
+	color: #E5E5E5;
+}
+
+.article{
+	background-image: url("../img/unsplash_WgMDQsn36w4.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.article__text-block{
+	margin: 0 auto;
+	max-width: 1440px;
+}
+.title{
+	padding: 36px 1275px 0px 100px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+}
+.title::before {
+	font-size: 40px;
+	font-weight: 700;
+	content: "VENCE";
+	color: red;
+}
+.title:hover::before {
+	color: rgb(70, 0, 128);
+}
+.text-1{
+	padding: 269px 1275px 15px 100px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.text-2{
+	padding: 15px 735px 15px 100px;
+	font-weight: 700;
+	line-height: 40px;
+	font-size: 25px;
+	color: #F8F9FA;
+}
+.text-3{
+	padding: 15px 841px 100px 100px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.lists {
+	margin: 0 auto;
+	padding-left: 135px;
+	padding: 100px;
+}
+.list__block {
+	margin-bottom: 30px;
+}
+
+.lists .list__block:last-of-type{
+	margin-bottom: 0px;
+}
+.list-1 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.list-1 li{
+	/* background-image: url("../img/icons/1.png"); */
+	background-size: 25px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	min-height: 25px;
+}
+.list__block .list-1 li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/1.png") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+
+.list-2 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.list-2 li{
+	background-image: url("../img/icons/2.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	min-height: 25px;
+}
+
+
+.list-3 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.list-3 li{
+	background-image: url("../img/icons/3.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	min-height: 25px;
+}
+
+.list__block .list-3:hover{
+	text-decoration: underline;
+	color: red;
+}
+.list__block .list-3 li:hover{
+	text-transform: uppercase;
+	color: blue;
+}
+
+.list__block .list-3 {
+	background-color: #45794d;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.8s;
+}
+
+.list__block:hover .list-3 {
+	visibility: visible;
+	opacity: 1;
+}
+
+.list-4 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.list-4:active{
+	color: grey;
+	text-decoration:underline blue
+}
+.list-4 li{
+	background-image: url("../img/icons/4.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	min-height: 25px;
+}
+
+.list-5 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.list-5 li{
+	background-image: url("../img/icons/5.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	min-height: 25px;
+}
+.list-5 a:visited{
+	color: green;
+}
+
+.list-6 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.list-6 li{
+	background-image: url("../img/icons/6.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	padding-top: 3px;
+	min-height: 25px;
+}
+.list__block .list-6 li::before{
+	content: "lorem";
+	border-radius: 50%;
+	width: 120px;
+	background-color: blue;
+	color: yellow;
+	text-transform: capitalize;
+	text-align: center;
+	margin-left: 110px;
+	display: inline-block;
+}
+.list__block .list-6 li:nth-child(4):before{
+	content: "loremmmms";
+	border-radius: 50%;
+	width: 260px;
+	background-color: rgb(255, 115, 0);
+	color: yellow;
+	text-transform: capitalize;
+	text-align: center;
+	margin-left: 110px;
+	display: inline-block;
+}
+
+.list__block .list-6 li::after{
+	content: "lorem";
+	border-radius: 50%;
+	width: 120px;
+	background-color: blue;
+	color: yellow;
+	text-transform: capitalize;
+	text-align: center;
+	margin-left: 110px;
+	display: inline-block;
+}
+.list__block .list-6 li:not(:last-child)::after{
+	content: "lorem";
+	border-radius: 50%;
+	width: 120px;
+	background-color: rgb(0, 255, 34);
+	color: yellow;
+	text-transform: capitalize;
+	text-align: center;
+	margin-left: 110px;
+	display: inline-block;
+}
+
+
+.lists .list__block:first-of-type{
+	text-transform: uppercase;
+}
+.lists .list__block:first-child{
+	text-decoration: underline;
+	color: green;
+}
+.lists .list__block:nth-child(2){
+	margin: 100px;
+	color: red;
+}
+
+.lists .list__block:nth-child(4){
+	background-color: #c8d330;
+}
+.list__block:nth-child(4) li:nth-child(4){
+	background-color: #0920b7;
+}
+
+.article-2{
+	margin: 0 auto;
+}
+.hero-area{
+	background: url("../img/icons/speaker\ 1.png") 75% no-repeat , url("../img/icons/Rectangle\ 4924.png") center / cover;
+}
+
+.cost{
+	padding: 145px 1152px 0px 135px;
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 600;
+	color: blue;
+}
+.cost:hover{
+	color:red;
+	text-decoration: line-through;
+}
+.cost:hover:after{
+	content: "discounted price";
+	display: inline-block;
+	color: #e70808;
+	border-radius: 50%;
+	background-color: #45794d;
+	font-size: 40px;
+	text-align: center;
+	margin: 50px;
+	
+}
+.area-1{
+	font-family: "Inter";
+	font-size: 36px;
+	font-weight: 700;
+	padding: 13px 835px 0px 135px;
+	color: #212B36;
+}
+.area-2{
+	padding: 15px 735px 0px 135px;
+	font-family: "Inter";
+	font-size: 16px;
+	font-weight: 500;
+	color: #637381;
+}
+.button{
+	padding: 35px 1166px 146px 135px;
+
+}
+button{
+	border-radius: 30px;
+	padding: 10px 30px;
+	background: #d34330;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: "Inter";
+}
+
+button:hover{
+	color: #e3ff11;
+	text-transform: uppercase;
+} 
+button:hover:before{
+	content: url("../img/icons/2.png");
+	text-align: center;
+	font-size: 10px;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border-radius: 30%;
+	background-color: red;
+	margin-right: 10px;
+}
